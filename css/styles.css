@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #0B666A;
+    font-family: 'Sacramento', cursive;
+    margin-top: 3.125rem;
+    line-height: 1.2;
+}
+
+h2 {
+    color: #0B666A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+h3 {
+    color: #35A29F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border-top: 10px dotted #9DB2BF;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 9%;
+}
+
+
+.bg-img{
+    width: 800px;
+    margin: -3px;
+}
+.bottom-cloud{
+    position: absolute;
+    
+}
+.bottom-cloud1{
+    position: absolute;
+    left: 65%;
+    top: auto;
+    
+}
+.bottom-container {
+    background-color: #0B666A;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0B666A;
+    padding: 6px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #35A29F;
+    text-decoration: none;
+  }
+.coding-img{
+    float: left;
+    margin-right: 10px;
+    width: 19.4%;
+}
+
+.contact-me{
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 50%;
+
+}
+.edit-img{
+    margin-top: 0;
+    float: right;
+    margin-left: 10px;
+    width: 23%;
+}
+.footer-link{
+    color: #97FEED;
+    padding-right: 50px;
+}
+.middle-container {
+    background-color: #FFFFFF;
+}
+.profile{
+    margin: 100px auto 70px auto;
+    width: 40%;
+}
+.skills{
+    margin-top: 90px;
+}
+
+.skill-row{
+    line-height: 2;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    width: 50%;
+}
+.stats-img{
+    float: left;
+    margin-right: 10px;
+    width: 19.4%;
+}
+.subheader-txt{
+    font-size: 1.70rem;
+    font-weight: 600;
+}
+
+
+.top-container {
+    background-color: #93BFCF;
+    padding-top: 50px;
+
+}
+.top-cloud{
+    position: absolute;
+    left: 65%;
+    top: auto;
+    padding-top: 50px;
+
+}
+
+
+#head-one{
+    font-size: 5.625rem;
+    margin-bottom: 0;
+}
+#mypfp{
+    height: 150px;
+    width: 150px;
+}
+#credits-txt{
+    color: #FFFFFF;
+}
