@@ -30,6 +30,18 @@ hr{
     width: 9%;
 }
 
+p{
+    line-height: 2;
+}
+
+a{
+    color: #97FEED;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+a:hover{
+    color: #8adfd1;
+}
 
 .bg-img{
     width: 800px;
@@ -37,6 +49,8 @@ hr{
 }
 .bottom-cloud{
     position: absolute;
+    left: 25%;
+    top: auto;
     
 }
 .bottom-cloud1{
@@ -48,7 +62,7 @@ hr{
 .bottom-container {
     background-color: #0B666A;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .btn {
     -webkit-border-radius: 7;
@@ -84,9 +98,9 @@ hr{
     width: 23%;
 }
 .footer-link{
-    color: #97FEED;
-    padding-right: 50px;
+
 }
+
 .middle-container {
     background-color: #FFFFFF;
 }
@@ -99,7 +113,6 @@ hr{
 }
 
 .skill-row{
-    line-height: 2;
     margin: 80px auto 80px auto;
     text-align: left;
     width: 50%;
@@ -139,4 +152,5 @@ hr{
 }
 #credits-txt{
     color: #FFFFFF;
+    font-size: 12px;
 }
