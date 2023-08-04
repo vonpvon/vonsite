@@ -1,193 +1,60 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
+    background-color: #D2E9E9;
+    
 }
 
+hr {
+    border-top: 1px dashed #000000;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+img {
+    height: 140px;
+    width: 140px;
+
+}
+
+h3,
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    line-height: 1.5;
-    font-size: 3rem;
+    color: #0B666A;
 }
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    line-height: 1.5;
-    padding: 0 10% 5%;
-    font-size: 2.6rem;
+
+table {
+    border-collapse: collapse;
 }
-h3 {
-    font-size: 1.5rem;
+
+td {
+
+    padding: 5px;
+}
+
+.class-year{
+    text-align: right;
+}
+
+.date {
+    font-size: 18px;
     font-weight: bold;
+    vertical-align: top;
 }
-.container-fluid {
-    padding: 3% 10% 8%;
-}
-.dwl-button {
-    margin: 5% 3% 5% 0;
-}
-.navbar {
-    padding-left: 0;
-    padding-bottom: 2.5rem;
-}
-.nav-item {
-    padding: 0 18px;
-
-}
-.nav-link {
-    font-size: 1.2rem;
-    font-weight: lighter;
-}
-.navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
+.location{
+    text-align: right;
 }
 
-/* Title Image */
-.title-img {
-    position: absolute;
-    width: 25%;
-    transform: rotate(25deg);
-    right: 19%;
+.school {
+    font-weight: 550;
 }
 
-.int-title {
-    padding: 0 1rem;
-}
-/* Features */
-.mi-icon {
-    color: #ef8172;
-    font-size: 4rem;
-    line-height: 5rem;
-    margin-bottom: 1rem;
-}
-.mi-icon:hover {
-    color: #ff4c68;
+.str-font {
+    font-weight: 550;
+    font-size: 16px;
+    vertical-align: top;
 }
 
-.feat-p {
-    color: #8f8f8f;
-    padding: 0 5% 5%;
-}
-
-/* Testimonials */
-.testimonial-img {
-    border-radius: 50%;
-    width: 10%;
-    margin: 1.2rem;
-}
-.carousel-item {
-    padding: 7% 15% 2.5%;
-}
-.press-logo {
-    width: 13%;
-    margin: 1.2rem 1.5rem 3.2rem;
-}
-/* Pricing section */
-.pricing-txt {
-    padding-bottom: 0;
-}
-.pricing-column {
-    padding: 4% 5%;
-}
-
-/* Call to Action Section */
-
-.h3-cta{
-    color: #fff;
-    font-size: 2.8rem;
-    line-height: 1.5;
-    padding: 0 10% 0;
-}
-
-.cta-div {
-    padding-top: 3.125rem;
-    padding-bottom: 2.367rem;
-}
-
-/* Footer Section */
-.div-icons{
-    font-size: 3rem;
-    margin: 3% 4% 3%;
-}
-.footer-div{
-    margin: 3.125rem auto;
-}
-.footer-icn{
-    margin-right: 3%;
-}
-.footer-p{
-    color:#8f8f8f;
-    font-weight: 600;
-}
-/* ID Selector */
-#title {
-    background-color: #ff4c68;
-    color: #ffffff;
-}
-
-#features {
-    background-color: #fff;
-    bottom: 5%;
-    margin: 0 auto;
-    padding: 7% 15%;
-    position: relative;
-    z-index: 1;
-}
-
-#testimonials {
-    color: #fff;
-    background-color: #ef8172;
-    text-align: center;
-}
-
-#press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-
-}
-#pricing {
-    padding: 6.25rem;
-    text-align: center;
-}
-
-#cta {
-    background-color: #ff4c68;
-    text-align: center;
-}
-
-#footer{
-    text-align: center;
-}
-
-@media(max-width: 991px) {
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-        line-height: 1.5;
-        font-size: 2.5rem;
-    }
-    .title-img {
-        position: static;
-        width: 40%;
-        transform: rotate(0);
-    }
-    #title {
-        text-align: center;
-    }
-}
-
-/* Custom CSS for Extra Small (xs) screens and above */
-@media (max-width: 464px) {
-    .row-cols-xs-1 {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .pricing-column {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+.year {
+    text-align: left;
+    width: 100px;
 }
